@@ -1,6 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import PropType from 'prop-types';
-import 'bootstrap/dist/css/bootstrap.css';
 
 class MissionCard extends React.Component {
   render() {
