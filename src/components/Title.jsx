@@ -5,7 +5,7 @@ import PropType from 'prop-types';
 class Title extends React.Component {
 	render() {
 		const { headline } = this.props;
-		return <h2 className='text-center text-light'>{headline}</h2>;
+		return <h2 className='p-3 text-center text-light'>{headline}</h2>;
 	}
 }
 
