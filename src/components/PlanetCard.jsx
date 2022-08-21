@@ -1,22 +1,24 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import './PlanetCard.css';
 import React from 'react';
 import PropType from 'prop-types';
 
 class PlanetCard extends React.Component {
-  render() {
-    const { planetName, planetImage } = this.props;
-    return (
-      <div data-testid="planet-card">
-        <p data-testid="planet-name">{ planetName }</p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-      </div>
-    );
-  }
+	render() {
+		const { planetName, planetImage } = this.props;
+		return (
+			<section className='text-light'>
+				<div>
+					<p>{planetName}</p>
+					<img src={planetImage} alt={`Planeta ${planetName}`} />
+				</div>
+			</section>
+		);
+	}
 }
 
 PlanetCard.propTypes = {
-  planetName: PropType.String,
-  planetImage: PropType.String,
+	planetName: PropType.String,
+	planetImage: PropType.String,
 }.isRequired;
 
 export default PlanetCard;

@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
 			<header>
-				<h1 className='text-center border border-black rounded-pill'>
+				<h1 className='text-center border border-black rounded-pill text-light'>
 					Sistema Solar
 				</h1>
 			</header>
