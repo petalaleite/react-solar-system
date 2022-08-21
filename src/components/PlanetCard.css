@@ -1,8 +1,8 @@
 section {
-  display: inline-flex;
-  flex-direction: row;
+  display: inline-block;
+  width: 150px;
 }
 
 img {
-  width: 25%;
+  width: 80%;
 }
